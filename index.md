@@ -23,6 +23,10 @@ Join the fan club for exclusive content and updates:
 
 [Become a Member](https://t.me/boost/koewetzelblog)
 
+.[Email](Koewetzelblog@gmail.com)
+
+[Xtwitter](@koewetzelblog)
+
 ## Latest News
 
 Stay tuned for new music, tour dates, and behind-the-scenes stories.
