@@ -1,40 +1,223 @@
----
-layout: default
-title: Koewetzelblog
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koewetzelblog | Official Fan Community</title>
 
-# 🎵 Koewetzelblog
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-Welcome to the official fan community.
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
 
-## Listen Now
+body{
+background:#0a0a0a;
+color:#fff;
+}
 
-- [Spotify](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://open.spotify.com/artist/1Tie3AZgLQZqYEp8Fv4zOZ&ved=2ahUKEwiI1tH_5cKVAxUMXEEAHVG7FBIQFnoECCEQAQ&usg=AOvVaw0i5mdHGNpoUxQITHxRT-TA)
-- [YouTube Music](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://music.youtube.com/%40KoeWetzel&ved=2ahUKEwiLraCA7cKVAxWhVEEAHZmKNMUQFnoECCYQAQ&usg=AOvVaw2cKRQ5L8sFJeHyXXXdWOAr)
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),
+url('https://images.unsplash.com/photo-1501386761578-eac5c94b800a');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
 
-## Tickets
+.hero h1{
+font-size:4rem;
+font-weight:800;
+margin-bottom:15px;
+}
 
-Get tickets for upcoming shows:
+.hero p{
+font-size:1.2rem;
+max-width:700px;
+margin:auto;
+margin-bottom:30px;
+}
 
-[Buy Tickets](https://t.me/boost/koewetzelblog)
-## Fan Membership
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:#d4a548;
+color:#000;
+font-weight:700;
+border-radius:40px;
+text-decoration:none;
+margin:10px;
+transition:.3s;
+}
 
-Join the fan club for exclusive content and updates:
+.btn:hover{
+transform:translateY(-3px);
+}
 
-[Become a Member](https://t.me/boost/koewetzelblog)
+section{
+padding:80px 10%;
+}
 
-.[Email](Koewetzelblog@gmail.com)
+.section-title{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:40px;
+color:#d4a548;
+}
 
-[Xtwitter](@koewetzelblog)
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
 
-## Latest News
+.card{
+background:#111;
+padding:30px;
+border-radius:20px;
+border:1px solid #222;
+transition:.3s;
+}
 
-Stay tuned for new music, tour dates, and behind-the-scenes stories.
+.card:hover{
+transform:translateY(-5px);
+}
 
-## Featured Photo
+.card h3{
+margin-bottom:10px;
+}
 
-![Koe Wetzel](Koe%20Wetzel%20on%20TikTok.jpeg)
+.card a{
+color:#d4a548;
+text-decoration:none;
+}
 
-## Contact
+.contact{
+text-align:center;
+}
 
-Follow us for updates and announcements.
+.contact a{
+display:block;
+margin:15px 0;
+color:#fff;
+font-size:1.1rem;
+text-decoration:none;
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:#050505;
+border-top:1px solid #222;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:2.5rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="hero">
+<h1>KOEWETZELBLOG</h1>
+<p>The Official Fan Community. Stay connected with the latest music, tour updates, exclusive content and more.</p>
+
+<a href="#" class="btn">Buy Tickets</a>
+<a href="#" class="btn">Become a Member</a>
+</div>
+</header>
+
+<section>
+<h2 class="section-title">Listen Now</h2>
+
+<div class="cards">
+<div class="card">
+<h3>Spotify</h3>
+<p>Listen to the latest tracks and playlists.</p>
+<a href="#">Open Spotify →</a>
+</div>
+
+<div class="card">
+<h3>YouTube Music</h3>
+<p>Watch videos and stream music.</p>
+<a href="#">Open YouTube Music →</a>
+</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Upcoming Shows</h2>
+
+<div class="cards">
+<div class="card">
+<h3>Tour Dates</h3>
+<p>Get tickets for upcoming concerts and events.</p>
+<a href="#">Buy Tickets →</a>
+</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Fan Membership</h2>
+
+<div class="card">
+<h3>Exclusive Access</h3>
+<p>Join the fan club for exclusive content, updates and special announcements.</p>
+<br>
+<a href="#" class="btn">Become a Member</a>
+</div>
+</section>
+
+<section class="contact">
+<h2 class="section-title">Stay Connected</h2>
+
+<a href="mailto:koewetzelblog@gmail.com">
+📧 koewetzelblog@gmail.com
+</a>
+
+<a href="https://x.com/koewetzelblog" target="_blank">
+𝕏 @koewetzelblog
+</a>
+
+</section>
+
+<section>
+<h2 class="section-title">Latest News</h2>
+
+<div class="cards">
+<div class="card">
+<h3>New Tour Dates</h3>
+<p>Check back soon for new announcements.</p>
+</div>
+
+<div class="card">
+<h3>New Music</h3>
+<p>Stay tuned for upcoming releases.</p>
+</div>
+
+<div class="card">
+<h3>Behind The Scenes</h3>
+<p>Exclusive fan content coming soon.</p>
+</div>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Koewetzelblog. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
