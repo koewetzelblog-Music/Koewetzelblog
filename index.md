@@ -9,20 +9,19 @@ Welcome to the official fan community.
 
 ## Listen Now
 
-- [Spotify](https://open.spotify.com/)
-- [YouTube Music](https://music.youtube.com/)
+- [Spotify](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://open.spotify.com/artist/1Tie3AZgLQZqYEp8Fv4zOZ&ved=2ahUKEwiI1tH_5cKVAxUMXEEAHVG7FBIQFnoECCEQAQ&usg=AOvVaw0i5mdHGNpoUxQITHxRT-TA)
+- [YouTube Music](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://music.youtube.com/%40KoeWetzel&ved=2ahUKEwiLraCA7cKVAxWhVEEAHZmKNMUQFnoECCYQAQ&usg=AOvVaw2cKRQ5L8sFJeHyXXXdWOAr)
 
 ## Tickets
 
 Get tickets for upcoming shows:
 
-[Buy Tickets](https://www.ticketmaster.com/)
-
+[Buy Tickets](https://t.me/boost/koewetzelblog)
 ## Fan Membership
 
 Join the fan club for exclusive content and updates:
 
-[Become a Member](https://patreon.com/)
+[Become a Member](https://t.me/boost/koewetzelblog)
 
 ## Latest News
 
